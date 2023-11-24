@@ -1,0 +1,72 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #cfe2f3; /* Warna latar belakang di luar kotak form */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.kotak-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #76afe7; 
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); 
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label, 
+input,
+textarea,
+button {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.form-input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    border-radius: 5px;
+}
+
+#btn-simpan {
+    padding: 12px;
+    background-color: #45a049;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+#btn-simpan:hover {
+    background-color: yellow;
+}
